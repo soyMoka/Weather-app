@@ -11,7 +11,7 @@ export const fetchWeatherAction = createAsyncThunk(
             console.log('-------preCityData--------');
             console.log(payload);
             console.log('---------------');
-            const cityData = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${payload}&limit=5&appid=${weatherAppKey}`
+            const cityData = await axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${payload}&limit=5&appid=${weatherAppKey}`
             )
             console.log('-------preData--------');
             console.log(cityData);
