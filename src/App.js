@@ -72,7 +72,7 @@ function App() {
             {loading? (
               <h1 className="pixelFont text-4xl text-center">Loading...</h1>
             ): error || weather == undefined? (
-              <h1 className="pixelFont text-2xl text-center">Where is this place right? {error?.message}</h1>
+              <h1 className="pixelFont text-2xl text-center">Is this place right? {error?.message}</h1>
             ):(
               <div className="flex flex-wrap -mx-4 justify-center">
                 <div className="w-full  px-4">
