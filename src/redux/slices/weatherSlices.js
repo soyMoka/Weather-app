@@ -8,10 +8,25 @@ export const fetchWeatherAction = createAsyncThunk(
     "weather/fetch",
     async (payload, { rejectWithValue, getState, dispatch }) => {
         try {
-            const { data } = await axios.get(
-                `https://api.openweathermap.org/data/2.5/weather?lat=${payload.lat}&lon=${payload.lon}&appid=${weatherAppKey}` 
-            );
-            return data;
+            console.log('-------preCityData--------');
+            console.log(payload);
+            console.log('---------------');
+            const cityData = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${payload}&limit=5&appid=${weatherAppKey}`
+            )
+            console.log('-------preData--------');
+            console.log(cityData);
+            console.log('---------------');
+            console.log('-------Buscamos--------');
+            console.log(cityData.data[0].lat);
+            console.log('---------------')
+            if (cityData) {
+
+                const { data } = await axios.get(
+                    `https://api.openweathermap.org/data/2.5/weather?lat=${cityData.data[0].lat}&lon=${cityData.data[0].lon}&appid=${weatherAppKey}` 
+                );
+                return data;
+            }
+            return undefined
         } catch (error) {
             if(!error?.response){
                 throw error;
@@ -20,6 +35,10 @@ export const fetchWeatherAction = createAsyncThunk(
         }
     }
 )
+
+
+
+
 
 //Slices
 
