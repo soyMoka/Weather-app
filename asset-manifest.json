@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Weather-app/static/css/main.68887470.css",
+    "main.js": "/Weather-app/static/js/main.de60f46e.js",
+    "static/js/787.874779ab.chunk.js": "/Weather-app/static/js/787.874779ab.chunk.js",
+    "static/media/Stardew Valley ALL CAPS.ttf": "/Weather-app/static/media/Stardew Valley ALL CAPS.9f9807c37ffbd70c403d.ttf",
+    "static/media/farm-background-des.jpg": "/Weather-app/static/media/farm-background-des.1efb1e89df59ec3e8b8b.jpg",
+    "static/media/pixelmix.ttf": "/Weather-app/static/media/pixelmix.43079f34c6d2a831a3d5.ttf",
+    "static/media/weather.svg": "/Weather-app/static/media/weather.41709da027352d845184c0670b38af5c.svg",
+    "index.html": "/Weather-app/index.html",
+    "main.68887470.css.map": "/Weather-app/static/css/main.68887470.css.map",
+    "main.de60f46e.js.map": "/Weather-app/static/js/main.de60f46e.js.map",
+    "787.874779ab.chunk.js.map": "/Weather-app/static/js/787.874779ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68887470.css",
+    "static/js/main.de60f46e.js"
+  ]
+}
