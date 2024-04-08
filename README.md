@@ -3,7 +3,7 @@ Made with React and Redux
 
 ## Description
 
-This is a weather app made with two diferent APIs from [Open Weather](https://openweathermap.org/) ( [Current weather data](https://openweathermap.org/current) and [Geocoding API](https://openweathermap.org/api/geocoding-api)) mostly based on the old [tutorial](https://www.youtube.com/watch?v=HQyCNoWrZik) of iNovotek.
+[This is a weather](https://soymoka.github.io/Weather-app/) app made with two diferent APIs from [Open Weather](https://openweathermap.org/) ( [Current weather data](https://openweathermap.org/current) and [Geocoding API](https://openweathermap.org/api/geocoding-api)) mostly based on the old [tutorial](https://www.youtube.com/watch?v=HQyCNoWrZik) of iNovotek.
 
 ## Objetives
 I started this project as a first contact with redux. 
